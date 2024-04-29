@@ -89,8 +89,8 @@ body {
 }
 
 .profile-img {
-    width: 60%; /* Adjust image width as needed */
-    border-radius: 50%; /* Creates a circular image */
+    width: 80%; /* Adjust image width as needed */
+    border-radius: 40%; /* Creates a circular image */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
 }
 /* About section styles */
