@@ -89,9 +89,9 @@ body {
 }
 
 .profile-img {
-    width: 60%; /* Adjust image width as needed */
-    border-radius: 50%; /* Creates a circular image */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
+    width: 100%; /* Ensure the image spans the entire width of its container */
+    border-radius: 10px; /* Apply a border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 /* About section styles */
 .about { 
@@ -102,18 +102,22 @@ body {
 	width: 100%; 
 } 
 
-.about .about-text { 
-	width: 450px; 
-	color: #fff; 
-	padding: 5rem 1rem 5rem 5rem; 
-} 
+#about.about {
+    background-color: #f0f0f0; /* Set the desired background color */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center; /* Center align content within the section */
+}
 
-.about .about-image img { 
-	height: 400px; 
-	width: 450px; 
-	padding: 5rem 5rem 5rem 1rem; 
-} 
+/* Ensure the text and image are properly styled within the about section */
+.about-text {
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
 
+.about-image img {
+    width: 100%; /* Make the image responsive within its container */
+    border-radius: 10px; /* Apply a border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
 /* Portfolio section styles */
 .portfolio { 
 	margin: 4.8rem 0; 
