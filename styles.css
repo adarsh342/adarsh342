@@ -1,0 +1,192 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-heading {
+    margin: 0;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-list-items {
+    padding: 0 15px;
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .menu-list-items {
+        padding: 10px 0;
+        width: 100%;
+    }
+}
+
+/* Hero Section Styling */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.my-heading {
+    margin: 10px 0;
+}
+
+.intro-buttons {
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Portfolio Section Styling */
+.portfolio-heading {
+    text-align: center;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.portfolio-content div {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* About Section Styling */
+.about {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 80%;
+    height: auto;
+}
+
+/* Contact Section Styling */
+.contact {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-controls,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section Styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-menu-list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list-items {
+    padding: 0 10px;
+}
+
+.footer-links {
+    color: #fff;
+    text-decoration: none;
+}
