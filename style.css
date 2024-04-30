@@ -89,8 +89,8 @@ body {
 }
 
 .profile-img {
-    width: 100%; /* Ensure the image spans the entire width of its container */
-    border-radius: 10px; /* Apply a border radius for rounded corners */
+    width: 65%; /* Ensure the image spans the entire width of its container */
+    border-radius: 100px; /* Apply a border radius for rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 /* About section styles */
